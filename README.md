@@ -14,15 +14,17 @@ Reports and Dashboard
 
 
 
-#Tools Used
-##Manual Testing
+# Tools Used
+
+## Manual Testing
 
 Excel – for test case design and reporting
 
-##Automation Testing
+## Automation Testing
 
 Playwright (JavaScript) – for UI automation
 
 Node.js – runtime environment
 
 Allure Reporter – for beautiful test reports with screenshots
+
