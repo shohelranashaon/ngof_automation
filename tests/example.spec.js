@@ -26,13 +26,3 @@ test.describe("NGO Forum ERP",()=>{
 
 });
 
-
-
-
-
-
-
-//Hooking
-//Before Hook,  After Hook
-//before suite, before test, before steps
-//after steps, after test, after suite
