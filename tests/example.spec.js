@@ -1,6 +1,5 @@
 
 import {test} from "@playwright/test";
-// import Account from "./pages/account.js";
 import Account from "../tests/pages/account.js";
 
 
