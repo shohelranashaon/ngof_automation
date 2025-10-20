@@ -1,0 +1,2 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","19700","Successfully Login with valid Information","chromium","Mon Oct 20 09:33:31 GMT+06:00 2025","passed","Mon Oct 20 09:33:51 GMT+06:00 2025","NGO Forum ERP","example.spec.js","",""
