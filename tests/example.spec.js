@@ -38,9 +38,17 @@ test.describe("NGO Forum ERP",()=>{
         await account.clickButtonHrm();
         // await page.waitForTimeout(3000);
         await account.clickButtonEmployee();
-        await page.pause()
+        // await page.pause()
 
 
+
+    });
+
+
+    test("New Employee plus Button works properly",async()=>{
+
+        await account.addNewEmployee();
+        // await page.pause();
 
     });
 
