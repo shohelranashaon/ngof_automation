@@ -48,7 +48,7 @@ test.describe("NGO Forum ERP",()=>{
     test("New Employee plus Button works properly",async()=>{
 
         await account.addNewEmployee();
-        await page.pause();
+        // await page.pause();
 
     });
 
