@@ -33,4 +33,9 @@ export default class Account{
             await this.locator.clickButtonEmployee.click();
         }
 
+        async addNewEmployee(){
+
+            await this.locator.addNewEmployee.click();
+        }
+
 }
