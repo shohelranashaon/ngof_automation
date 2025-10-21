@@ -24,4 +24,13 @@ export default class Account{
             await this.locator.clickButtonLogin.click();
         }
 
+        async clickButtonHrm(){
+
+            await this.locator.clickButtonHrm.click();
+        }
+
+        async clickButtonEmployee(){
+            await this.locator.clickButtonEmployee.click();
+        }
+
 }

@@ -10,6 +10,7 @@ export default defineConfig({
   workers: process.env.CI ? 1 : undefined,
   reporter: 'allure-playwright',
   use: {
+    baseURL:'https://ngof.4axizerp.com/',
     trace: 'on-first-retry',
   },
 

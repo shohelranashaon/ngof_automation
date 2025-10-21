@@ -1,0 +1,718 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link [ref=e5] [cursor=pointer]:
+        - /url: https://ngof.4axizerp.com/home
+      - generic [ref=e7]:
+        - generic [ref=e8]: 
+        - textbox "Search" [ref=e9]:
+          - /placeholder: Search . . .
+      - list [ref=e11]:
+        - listitem [ref=e12]:
+          - link " Dashboard" [ref=e13] [cursor=pointer]:
+            - /url: "#!"
+            - generic [ref=e15]: 
+            - generic [ref=e16]: Dashboard
+            - img [ref=e18]
+          - list [ref=e20]:
+            - listitem [ref=e21]:
+              - link "Accounting Dashboard" [ref=e22] [cursor=pointer]:
+                - /url: https://ngof.4axizerp.com/dashboard/account
+            - listitem [ref=e23]:
+              - link "HRM Dashboard" [ref=e24] [cursor=pointer]:
+                - /url: https://ngof.4axizerp.com/dashboard/hrm
+        - listitem [ref=e25]:
+          - link " User Management" [ref=e26] [cursor=pointer]:
+            - /url: "#!"
+            - generic [ref=e28]: 
+            - generic [ref=e29]: User Management
+            - img [ref=e31]
+        - listitem [ref=e33]:
+          - link " HRM" [active] [ref=e34] [cursor=pointer]:
+            - /url: "#!"
+            - generic [ref=e36]: 
+            - generic [ref=e37]: HRM
+            - img [ref=e39]
+          - list [ref=e41]:
+            - listitem [ref=e42]:
+              - link "Employee" [ref=e43] [cursor=pointer]:
+                - /url: https://ngof.4axizerp.com/employee
+            - listitem [ref=e44]:
+              - link "Payroll" [ref=e45] [cursor=pointer]:
+                - /url: "#!"
+                - text: Payroll
+                - img [ref=e47]
+            - listitem [ref=e49]:
+              - link "Attendance" [ref=e50] [cursor=pointer]:
+                - /url: "#!"
+                - text: Attendance
+                - img [ref=e52]
+            - listitem [ref=e54]:
+              - link "Manage Leave" [ref=e55] [cursor=pointer]:
+                - /url: https://ngof.4axizerp.com/leave
+            - listitem [ref=e56]:
+              - link "Manage Movement" [ref=e57] [cursor=pointer]:
+                - /url: https://ngof.4axizerp.com/movement
+            - listitem [ref=e58]:
+              - link "Manage Trip" [ref=e59] [cursor=pointer]:
+                - /url: https://ngof.4axizerp.com/trip
+            - listitem [ref=e60]:
+              - link "HR Admin" [ref=e61] [cursor=pointer]:
+                - /url: "#!"
+                - text: HR Admin
+                - img [ref=e63]
+            - listitem [ref=e65]:
+              - link "Event" [ref=e66] [cursor=pointer]:
+                - /url: https://ngof.4axizerp.com/event
+            - listitem [ref=e67]:
+              - link "Document" [ref=e68] [cursor=pointer]:
+                - /url: https://ngof.4axizerp.com/document
+            - listitem [ref=e69]:
+              - link "Company Policy" [ref=e70] [cursor=pointer]:
+                - /url: https://ngof.4axizerp.com/company-policy
+            - listitem [ref=e71]:
+              - link "System Setup" [ref=e72] [cursor=pointer]:
+                - /url: https://ngof.4axizerp.com/branch
+            - listitem [ref=e73]:
+              - link "Report" [ref=e74] [cursor=pointer]:
+                - /url: "#!"
+                - text: Report
+                - img [ref=e76]
+        - listitem [ref=e78]:
+          - link " Biometric" [ref=e79] [cursor=pointer]:
+            - /url: "#!"
+            - generic [ref=e81]: 
+            - generic [ref=e82]: Biometric
+            - img [ref=e84]
+        - listitem [ref=e86]:
+          - link " Projects" [ref=e87] [cursor=pointer]:
+            - /url: https://ngof.4axizerp.com/projects
+            - generic [ref=e89]: 
+            - generic [ref=e90]: Projects
+        - listitem [ref=e91]:
+          - link " Procurement" [ref=e92] [cursor=pointer]:
+            - /url: "#!"
+            - generic [ref=e94]: 
+            - generic [ref=e95]: Procurement
+            - img [ref=e97]
+        - listitem [ref=e99]:
+          - link " Accounting" [ref=e100] [cursor=pointer]:
+            - /url: "#!"
+            - generic [ref=e102]: 
+            - generic [ref=e103]: Accounting
+            - img [ref=e105]
+        - listitem [ref=e107]:
+          - link " Activity Log" [ref=e108] [cursor=pointer]:
+            - /url: https://ngof.4axizerp.com/activitylog
+            - generic [ref=e110]: 
+            - generic [ref=e111]: Activity Log
+        - listitem [ref=e112]:
+          - link " Messenger" [ref=e113] [cursor=pointer]:
+            - /url: https://ngof.4axizerp.com/chatify
+            - generic [ref=e115]: 
+            - generic [ref=e116]: Messenger
+        - listitem [ref=e117]:
+          - link " Helpdesk" [ref=e118] [cursor=pointer]:
+            - /url: https://ngof.4axizerp.com/helpdesk
+            - generic [ref=e120]: 
+            - generic [ref=e121]: Helpdesk
+        - listitem [ref=e122]:
+          - link " Settings" [ref=e123] [cursor=pointer]:
+            - /url: https://ngof.4axizerp.com/settings
+            - generic [ref=e125]: 
+            - generic [ref=e126]: Settings
+  - banner [ref=e129]:
+    - generic [ref=e130]:
+      - list [ref=e132]:
+        - listitem [ref=e133]:
+          - button "# NGOF " [ref=e134] [cursor=pointer]:
+            - img "#" [ref=e136]
+            - generic [ref=e137]: NGOF
+            - generic [ref=e138]: 
+          - text:  
+        - listitem [ref=e139]:
+          - link "" [ref=e140] [cursor=pointer]:
+            - /url: https://ngof.4axizerp.com/config-cache
+            - generic [ref=e141]: 
+      - list [ref=e143]:
+        - listitem [ref=e144]:
+          - link " 0" [ref=e145] [cursor=pointer]:
+            - /url: https://ngof.4axizerp.com/chatify
+            - generic [ref=e146]: 
+            - generic [ref=e147]: "0"
+        - listitem [ref=e149]:
+          - link " Create Workspace" [ref=e150] [cursor=pointer]:
+            - /url: "#!"
+            - generic [ref=e151]: 
+            - generic [ref=e152]: Create Workspace
+        - listitem [ref=e153]:
+          - button " Central Office " [ref=e154] [cursor=pointer]:
+            - generic [ref=e155]: 
+            - generic [ref=e156]: Central Office
+            - generic [ref=e157]: 
+          - text:    
+        - listitem [ref=e158]:
+          - button " EN " [ref=e159] [cursor=pointer]:
+            - generic [ref=e160]: 
+            - generic [ref=e161]: EN
+            - generic [ref=e162]: 
+  - generic [ref=e164]:
+    - generic [ref=e168]:
+      - heading "Dashboard" [level=4] [ref=e170]
+      - list [ref=e171]:
+        - listitem [ref=e172]:
+          - link "Dashboard" [ref=e173] [cursor=pointer]:
+            - /url: https://ngof.4axizerp.com/dashboard
+        - listitem [ref=e174]: Account
+    - generic [ref=e175]:
+      - generic [ref=e177]:
+        - img "layer" [ref=e178]
+        - generic [ref=e179]:
+          - generic [ref=e180]:
+            - heading "Central Office" [level=2] [ref=e181]
+            - paragraph [ref=e182]: Simplifies accounting with streamlined invoicing, bill tracking, and real-time financial insights.
+          - img [ref=e184]
+      - generic [ref=e190]:
+        - generic [ref=e193]:
+          - generic [ref=e194]:
+            - generic [ref=e196]: 
+            - link "Customers" [ref=e197] [cursor=pointer]:
+              - /url: https://ngof.4axizerp.com/customer
+              - heading "Customers" [level=3] [ref=e198]
+          - heading "1" [level=3] [ref=e199]
+        - generic [ref=e202]:
+          - generic [ref=e203]:
+            - generic [ref=e205]: 
+            - link "Vendors" [ref=e206] [cursor=pointer]:
+              - /url: https://ngof.4axizerp.com/vendors
+              - heading "Vendors" [level=3] [ref=e207]
+          - heading "94" [level=3] [ref=e208]
+        - generic [ref=e211]:
+          - generic [ref=e212]:
+            - generic [ref=e214]: 
+            - link "Invoices" [ref=e215] [cursor=pointer]:
+              - /url: https://ngof.4axizerp.com/invoice
+              - heading "Invoices" [level=3] [ref=e216]
+          - heading "1" [level=3] [ref=e217]
+        - generic [ref=e220]:
+          - generic [ref=e221]:
+            - generic [ref=e223]: 
+            - link "Bills" [ref=e224] [cursor=pointer]:
+              - /url: https://ngof.4axizerp.com/bill
+              - heading "Bills" [level=3] [ref=e225]
+          - heading "11" [level=3] [ref=e226]
+    - generic [ref=e227]:
+      - generic [ref=e229]:
+        - heading "Account Balance" [level=5] [ref=e231]
+        - table [ref=e234]:
+          - rowgroup [ref=e235]:
+            - row "Bank Holder Name Balance" [ref=e236]:
+              - cell "Bank" [ref=e237]
+              - cell "Holder Name" [ref=e238]
+              - cell "Balance" [ref=e239]
+          - rowgroup [ref=e240]:
+            - row "cash ৳-1,000,410.000" [ref=e241]:
+              - cell [ref=e242]
+              - cell "cash" [ref=e243]
+              - cell "৳-1,000,410.000" [ref=e244]
+            - row "Janata Bank PLC NGO Forum For Public Health ৳1,000.000" [ref=e245]:
+              - cell "Janata Bank PLC" [ref=e246]
+              - cell "NGO Forum For Public Health" [ref=e247]
+              - cell "৳1,000.000" [ref=e248]
+            - row "Janata Bank PLC Service Account of NGO Forum ৳1,000.000" [ref=e249]:
+              - cell "Janata Bank PLC" [ref=e250]
+              - cell "Service Account of NGO Forum" [ref=e251]
+              - cell "৳1,000.000" [ref=e252]
+            - row "Janata Bank PLC NGOF-UNHCR WASH Project ৳1,000.000" [ref=e253]:
+              - cell "Janata Bank PLC" [ref=e254]
+              - cell "NGOF-UNHCR WASH Project" [ref=e255]
+              - cell "৳1,000.000" [ref=e256]
+            - row "Janata Bank PLC NGOF - SRC Perticipation and Sustainability Project ৳1,000.000" [ref=e257]:
+              - cell "Janata Bank PLC" [ref=e258]
+              - cell "NGOF - SRC Perticipation and Sustainability Project" [ref=e259]
+              - cell "৳1,000.000" [ref=e260]
+            - row "Janata Bank PLC NGOF - GOB UNICEF LOT - 6 Project ৳1,000.000" [ref=e261]:
+              - cell "Janata Bank PLC" [ref=e262]
+              - cell "NGOF - GOB UNICEF LOT - 6 Project" [ref=e263]
+              - cell "৳1,000.000" [ref=e264]
+            - row "Janata Bank PLC NGOF - CU Collaborative Research Environmental Risks Project ৳1,000.000" [ref=e265]:
+              - cell "Janata Bank PLC" [ref=e266]
+              - cell "NGOF - CU Collaborative Research Environmental Risks Project" [ref=e267]
+              - cell "৳1,000.000" [ref=e268]
+            - row "Janata Bank PLC NGOF - IWMI Solar Irrigation for Agricultural Resilience in Bangladesh ৳1,000.000" [ref=e269]:
+              - cell "Janata Bank PLC" [ref=e270]
+              - cell "NGOF - IWMI Solar Irrigation for Agricultural Resilience in Bangladesh" [ref=e271]
+              - cell "৳1,000.000" [ref=e272]
+            - row "Janata Bank PLC NGOF - Group Insurance Fund ৳1,000.000" [ref=e273]:
+              - cell "Janata Bank PLC" [ref=e274]
+              - cell "NGOF - Group Insurance Fund" [ref=e275]
+              - cell "৳1,000.000" [ref=e276]
+            - row "Janata Bank PLC NGOF - Earned Leave Fund ৳1,000.000" [ref=e277]:
+              - cell "Janata Bank PLC" [ref=e278]
+              - cell "NGOF - Earned Leave Fund" [ref=e279]
+              - cell "৳1,000.000" [ref=e280]
+            - row "Janata Bank PLC NGOF - IOM Comprehensive WASH Services Project for the Rohingya Refugees ৳1,000.000" [ref=e281]:
+              - cell "Janata Bank PLC" [ref=e282]
+              - cell "NGOF - IOM Comprehensive WASH Services Project for the Rohingya Refugees" [ref=e283]
+              - cell "৳1,000.000" [ref=e284]
+            - row "Janata Bank PLC NGOF - UNICEF Provision of Live-Saving WASH Services for Camp-6, Ukhiya ৳1,000.000" [ref=e285]:
+              - cell "Janata Bank PLC" [ref=e286]
+              - cell "NGOF - UNICEF Provision of Live-Saving WASH Services for Camp-6, Ukhiya" [ref=e287]
+              - cell "৳1,000.000" [ref=e288]
+            - row "Janata Bank PLC NGOF - UNICEF Provision of Life-Saving WASH Services for Camp-7, Ukhiya ৳1,000.000" [ref=e289]:
+              - cell "Janata Bank PLC" [ref=e290]
+              - cell "NGOF - UNICEF Provision of Life-Saving WASH Services for Camp-7, Ukhiya" [ref=e291]
+              - cell "৳1,000.000" [ref=e292]
+            - row "Janata Bank PLC Project Support Fund Account ৳1,000.000" [ref=e293]:
+              - cell "Janata Bank PLC" [ref=e294]
+              - cell "Project Support Fund Account" [ref=e295]
+              - cell "৳1,000.000" [ref=e296]
+            - row "Janata Bank PLC NGOF - DFAT AHP Rohingya Response Project (Phase III) ৳1,000.000" [ref=e297]:
+              - cell "Janata Bank PLC" [ref=e298]
+              - cell "NGOF - DFAT AHP Rohingya Response Project (Phase III)" [ref=e299]
+              - cell "৳1,000.000" [ref=e300]
+            - row "Janata Bank PLC NGO Forum For Public Health-CTC ৳1,000.000" [ref=e301]:
+              - cell "Janata Bank PLC" [ref=e302]
+              - cell "NGO Forum For Public Health-CTC" [ref=e303]
+              - cell "৳1,000.000" [ref=e304]
+            - row "Janata Bank PLC NGOF - IOM - Site Development in Camps Project ৳1,000.000" [ref=e305]:
+              - cell "Janata Bank PLC" [ref=e306]
+              - cell "NGOF - IOM - Site Development in Camps Project" [ref=e307]
+              - cell "৳1,000.000" [ref=e308]
+            - row "Janata Bank PLC NGO Forum WIN Project ৳1,000.000" [ref=e309]:
+              - cell "Janata Bank PLC" [ref=e310]
+              - cell "NGO Forum WIN Project" [ref=e311]
+              - cell "৳1,000.000" [ref=e312]
+            - row "Janata Bank PLC NGOF - UNICEF Remal Response Project ৳1,000.000" [ref=e313]:
+              - cell "Janata Bank PLC" [ref=e314]
+              - cell "NGOF - UNICEF Remal Response Project" [ref=e315]
+              - cell "৳1,000.000" [ref=e316]
+            - row "Janata Bank PLC NGOF - Implementing Emergency Assistance Project ৳1,000.000" [ref=e317]:
+              - cell "Janata Bank PLC" [ref=e318]
+              - cell "NGOF - Implementing Emergency Assistance Project" [ref=e319]
+              - cell "৳1,000.000" [ref=e320]
+            - row "Janata Bank PLC NGO Forum Lab Services ৳1,000.000" [ref=e321]:
+              - cell "Janata Bank PLC" [ref=e322]
+              - cell "NGO Forum Lab Services" [ref=e323]
+              - cell "৳1,000.000" [ref=e324]
+            - row "Janata Bank PLC NGOF Implementing Emergency Assistance Project NCS-3 ৳1,000.000" [ref=e325]:
+              - cell "Janata Bank PLC" [ref=e326]
+              - cell "NGOF Implementing Emergency Assistance Project NCS-3" [ref=e327]
+              - cell "৳1,000.000" [ref=e328]
+            - row "Janata Bank PLC NGOF Implementing Emergency Assistance Project NCS-4 ৳1,000.000" [ref=e329]:
+              - cell "Janata Bank PLC" [ref=e330]
+              - cell "NGOF Implementing Emergency Assistance Project NCS-4" [ref=e331]
+              - cell "৳1,000.000" [ref=e332]
+            - row "Janata Bank PLC NGOF - UNICEF Implementing of Climate Resilient WASH Project ৳1,000.000" [ref=e333]:
+              - cell "Janata Bank PLC" [ref=e334]
+              - cell "NGOF - UNICEF Implementing of Climate Resilient WASH Project" [ref=e335]
+              - cell "৳1,000.000" [ref=e336]
+            - row "Janata Bank PLC NGOF - BORDA IWM Project ৳1,000.000" [ref=e337]:
+              - cell "Janata Bank PLC" [ref=e338]
+              - cell "NGOF - BORDA IWM Project" [ref=e339]
+              - cell "৳1,000.000" [ref=e340]
+            - row "Janata Bank PLC NGOF - FAO Project ৳1,000.000" [ref=e341]:
+              - cell "Janata Bank PLC" [ref=e342]
+              - cell "NGOF - FAO Project" [ref=e343]
+              - cell "৳1,000.000" [ref=e344]
+            - row "Janata Bank PLC NGOF - UNDP Gender Responsive Coastal Adaptation Project ৳1,000.000" [ref=e345]:
+              - cell "Janata Bank PLC" [ref=e346]
+              - cell "NGOF - UNDP Gender Responsive Coastal Adaptation Project" [ref=e347]
+              - cell "৳1,000.000" [ref=e348]
+            - row "Janata Bank PLC NGOF - Humanitarian Assistance Fund (HAF) ৳1,000.000" [ref=e349]:
+              - cell "Janata Bank PLC" [ref=e350]
+              - cell "NGOF - Humanitarian Assistance Fund (HAF)" [ref=e351]
+              - cell "৳1,000.000" [ref=e352]
+            - row "Janata Bank PLC NGOF - UNICEF Piped Water Systems in Camp-16 and Host Community ৳1,000.000" [ref=e353]:
+              - cell "Janata Bank PLC" [ref=e354]
+              - cell "NGOF - UNICEF Piped Water Systems in Camp-16 and Host Community" [ref=e355]
+              - cell "৳1,000.000" [ref=e356]
+            - row "Janata Bank PLC NGOF - E - RISE Project ৳1,000.000" [ref=e357]:
+              - cell "Janata Bank PLC" [ref=e358]
+              - cell "NGOF - E - RISE Project" [ref=e359]
+              - cell "৳1,000.000" [ref=e360]
+            - row "Janata Bank PLC NGOF - UNICEF - ICRWS Project, Kutubdia (Lot-2) ৳1,000.000" [ref=e361]:
+              - cell "Janata Bank PLC" [ref=e362]
+              - cell "NGOF - UNICEF - ICRWS Project, Kutubdia (Lot-2)" [ref=e363]
+              - cell "৳1,000.000" [ref=e364]
+            - row "Janata Bank PLC NGOF - UNICEF - ICRWS Project, Teknaf (Lot-1) ৳1,000.000" [ref=e365]:
+              - cell "Janata Bank PLC" [ref=e366]
+              - cell "NGOF - UNICEF - ICRWS Project, Teknaf (Lot-1)" [ref=e367]
+              - cell "৳1,000.000" [ref=e368]
+            - row "Janata Bank PLC NGOF - UNICEF - WASH Project, Camp-4 ৳1,000.000" [ref=e369]:
+              - cell "Janata Bank PLC" [ref=e370]
+              - cell "NGOF - UNICEF - WASH Project, Camp-4" [ref=e371]
+              - cell "৳1,000.000" [ref=e372]
+            - row "Janata Bank PLC NGOF - UNICEF - WASH Project, Camp-4 Ext. ৳1,000.000" [ref=e373]:
+              - cell "Janata Bank PLC" [ref=e374]
+              - cell "NGOF - UNICEF - WASH Project, Camp-4 Ext." [ref=e375]
+              - cell "৳1,000.000" [ref=e376]
+            - row "Janata Bank PLC NGOF - UNICEF - Sanitation Camp 6&7 ৳1,000.000" [ref=e377]:
+              - cell "Janata Bank PLC" [ref=e378]
+              - cell "NGOF - UNICEF - Sanitation Camp 6&7" [ref=e379]
+              - cell "৳1,000.000" [ref=e380]
+            - row "Janata Bank PLC NGOF - E - RISE-2 Project ৳1,000.000" [ref=e381]:
+              - cell "Janata Bank PLC" [ref=e382]
+              - cell "NGOF - E - RISE-2 Project" [ref=e383]
+              - cell "৳1,000.000" [ref=e384]
+            - row "Janata Bank PLC NGOF - UNDP - SIRC Project ৳1,000.000" [ref=e385]:
+              - cell "Janata Bank PLC" [ref=e386]
+              - cell "NGOF - UNDP - SIRC Project" [ref=e387]
+              - cell "৳1,000.000" [ref=e388]
+            - row "Janata Bank PLC NGOF - UNICEF Water Trucking Project ৳1,000.000" [ref=e389]:
+              - cell "Janata Bank PLC" [ref=e390]
+              - cell "NGOF - UNICEF Water Trucking Project" [ref=e391]
+              - cell "৳1,000.000" [ref=e392]
+            - row "Janata Bank PLC NGOF - Piped Water Systems (Lot-1) ৳1,000.000" [ref=e393]:
+              - cell "Janata Bank PLC" [ref=e394]
+              - cell "NGOF - Piped Water Systems (Lot-1)" [ref=e395]
+              - cell "৳1,000.000" [ref=e396]
+            - row "Janata Bank PLC NGOF - Piped Water Systems (Lot-3) ৳1,000.000" [ref=e397]:
+              - cell "Janata Bank PLC" [ref=e398]
+              - cell "NGOF - Piped Water Systems (Lot-3)" [ref=e399]
+              - cell "৳1,000.000" [ref=e400]
+            - row "Janata Bank PLC NGOF - Piped Water Systems (Lot-6) ৳1,000.000" [ref=e401]:
+              - cell "Janata Bank PLC" [ref=e402]
+              - cell "NGOF - Piped Water Systems (Lot-6)" [ref=e403]
+              - cell "৳1,000.000" [ref=e404]
+            - row "Janata Bank PLC NGOF - Sustainable WASH Solution Project ৳1,000.000" [ref=e405]:
+              - cell "Janata Bank PLC" [ref=e406]
+              - cell "NGOF - Sustainable WASH Solution Project" [ref=e407]
+              - cell "৳1,000.000" [ref=e408]
+            - row "Janata Bank PLC NGO Forum Employees Provident Fund ৳1,000.000" [ref=e409]:
+              - cell "Janata Bank PLC" [ref=e410]
+              - cell "NGO Forum Employees Provident Fund" [ref=e411]
+              - cell "৳1,000.000" [ref=e412]
+            - row "Janata Bank PLC NGOF - Gratuity Fund ৳1,000.000" [ref=e413]:
+              - cell "Janata Bank PLC" [ref=e414]
+              - cell "NGOF - Gratuity Fund" [ref=e415]
+              - cell "৳1,000.000" [ref=e416]
+      - generic [ref=e418]:
+        - heading "Cashflow" [level=5] [ref=e420]
+        - img [ref=e424]:
+          - generic [ref=e426]:
+            - generic [ref=e427]:
+              - generic "21-Oct" [ref=e428]
+              - generic "20-Oct" [ref=e429]
+              - generic "19-Oct" [ref=e430]
+              - generic "18-Oct" [ref=e431]
+              - generic "17-Oct" [ref=e432]
+              - generic "16-Oct" [ref=e433]
+              - generic "15-Oct" [ref=e434]
+              - generic "14-Oct" [ref=e435]
+              - generic "13-Oct" [ref=e436]
+              - generic "12-Oct" [ref=e437]
+              - generic "11-Oct" [ref=e438]
+              - generic "10-Oct" [ref=e439]
+              - generic "09-Oct" [ref=e440]
+              - generic "08-Oct" [ref=e441]
+              - generic "07-Oct" [ref=e442]
+            - generic [ref=e444]: Date
+          - generic [ref=e447]:
+            - generic [ref=e448]:
+              - generic "5" [ref=e449]
+              - generic "4" [ref=e450]
+              - generic "3" [ref=e451]
+              - generic "2" [ref=e452]
+              - generic "1" [ref=e453]
+              - generic "0" [ref=e454]
+            - generic [ref=e456]: Amount
+      - generic [ref=e458]:
+        - heading "Income & Expense Current Year - 2025" [level=5] [ref=e460]:
+          - text: Income & Expense
+          - generic [ref=e461]: Current Year - 2025
+        - img [ref=e465]:
+          - generic [ref=e467]:
+            - generic [ref=e468] [cursor=pointer]: Income
+            - generic [ref=e470] [cursor=pointer]: Expense
+          - generic [ref=e474]:
+            - generic "January" [ref=e475]
+            - generic "February" [ref=e476]
+            - generic "March" [ref=e477]
+            - generic "April" [ref=e478]
+            - generic "May" [ref=e479]
+            - generic "June" [ref=e480]
+            - generic "July" [ref=e481]
+            - generic "August" [ref=e482]
+            - generic "September" [ref=e483]
+            - generic "October" [ref=e484]
+            - generic "November" [ref=e485]
+            - generic "December" [ref=e486]
+          - generic [ref=e490]:
+            - generic "2.0" [ref=e491]
+            - generic "1.6" [ref=e492]
+            - generic "1.2" [ref=e493]
+            - generic "0.8" [ref=e494]
+            - generic "0.4" [ref=e495]
+            - generic "0.0" [ref=e496]
+      - generic [ref=e498]:
+        - heading "Income By Category Year - 2025" [level=5] [ref=e500]:
+          - text: Income By Category
+          - generic [ref=e501]: Year - 2025
+        - img [ref=e505]:
+          - generic [ref=e508] [cursor=pointer]: Procurement Invoice
+      - generic [ref=e518]:
+        - heading "Latest Income" [level=5] [ref=e520]
+        - table [ref=e523]:
+          - rowgroup [ref=e524]:
+            - row "Date Customer Amount Due" [ref=e525]:
+              - cell "Date" [ref=e526]
+              - cell "Customer" [ref=e527]
+              - cell "Amount Due" [ref=e528]
+          - rowgroup [ref=e529]:
+            - row "08-09-2025 - ৳5.000" [ref=e530]:
+              - cell "08-09-2025" [ref=e531]
+              - cell "-" [ref=e532]
+              - cell "৳5.000" [ref=e533]
+      - generic [ref=e535]:
+        - heading "Expense By Category Year - 2025" [level=5] [ref=e537]:
+          - text: Expense By Category
+          - generic [ref=e538]: Year - 2025
+        - img [ref=e542]:
+          - generic [ref=e544]:
+            - generic [ref=e545] [cursor=pointer]: Computer Peripherals
+            - generic [ref=e547] [cursor=pointer]: Office Supplies
+            - generic [ref=e549] [cursor=pointer]: IT Equipment
+      - generic [ref=e563]:
+        - heading "Latest Expense" [level=5] [ref=e565]
+        - table [ref=e568]:
+          - rowgroup [ref=e569]:
+            - row "Date Vendor Amount Due" [ref=e570]:
+              - cell "Date" [ref=e571]
+              - cell "Vendor" [ref=e572]
+              - cell "Amount Due" [ref=e573]
+          - rowgroup [ref=e574]:
+            - row "08-09-2025 4axiz ৳50.000" [ref=e575]:
+              - cell "08-09-2025" [ref=e576]
+              - cell "4axiz" [ref=e577]
+              - cell "৳50.000" [ref=e578]
+            - row "31-08-2025 4axiz IT LTD ৳50.000" [ref=e579]:
+              - cell "31-08-2025" [ref=e580]
+              - cell "4axiz IT LTD" [ref=e581]
+              - cell "৳50.000" [ref=e582]
+            - row "27-07-2025 - ৳5.200" [ref=e583]:
+              - cell "27-07-2025" [ref=e584]
+              - cell "-" [ref=e585]
+              - cell "৳5.200" [ref=e586]
+            - row "20-07-2025 4axiz ৳1,000,000.000" [ref=e587]:
+              - cell "20-07-2025" [ref=e588]
+              - cell "4axiz" [ref=e589]
+              - cell "৳1,000,000.000" [ref=e590]
+            - row "20-07-2025 4axiz ৳40.000" [ref=e591]:
+              - cell "20-07-2025" [ref=e592]
+              - cell "4axiz" [ref=e593]
+              - cell "৳40.000" [ref=e594]
+      - generic [ref=e596]:
+        - heading "Income Vs Expense" [level=5] [ref=e598]
+        - generic [ref=e600]:
+          - generic [ref=e602]:
+            - generic [ref=e604]: 
+            - generic [ref=e605]:
+              - paragraph [ref=e606]: Income Today
+              - heading "৳0" [level=4] [ref=e607]
+          - generic [ref=e609]:
+            - generic [ref=e611]: 
+            - generic [ref=e612]:
+              - paragraph [ref=e613]: Expense Today
+              - heading "৳0" [level=4] [ref=e614]
+          - generic [ref=e616]:
+            - generic [ref=e618]: 
+            - generic [ref=e619]:
+              - paragraph [ref=e620]: Income This Month
+              - heading "৳0" [level=4] [ref=e621]
+          - generic [ref=e623]:
+            - generic [ref=e625]: 
+            - generic [ref=e626]:
+              - paragraph [ref=e627]: Expense This Month
+              - heading "৳0" [level=4] [ref=e628]
+      - generic [ref=e630]:
+        - heading "Recent Invoices" [level=5] [ref=e632]
+        - table [ref=e635]:
+          - rowgroup [ref=e636]:
+            - row "# Customer Issue Date Due Date Amount Status" [ref=e637]:
+              - cell "#" [ref=e638]
+              - cell "Customer" [ref=e639]
+              - cell "Issue Date" [ref=e640]
+              - cell "Due Date" [ref=e641]
+              - cell "Amount" [ref=e642]
+              - cell "Status" [ref=e643]
+          - rowgroup [ref=e644]:
+            - row "#INVO00001 Abc 08-09-2025 08-09-2025 ৳13.905 Sent" [ref=e645]:
+              - cell "#INVO00001" [ref=e646]
+              - cell "Abc" [ref=e647]
+              - cell "08-09-2025" [ref=e648]
+              - cell "08-09-2025" [ref=e649]
+              - cell "৳13.905" [ref=e650]
+              - cell "Sent" [ref=e651]:
+                - generic [ref=e652]: Sent
+      - generic [ref=e654]:
+        - tablist [ref=e656]:
+          - listitem [ref=e657]:
+            - tab "Invoices Weekly Statistics" [selected] [ref=e658] [cursor=pointer]
+          - listitem [ref=e659]:
+            - tab "Invoices Monthly Statistics" [ref=e660] [cursor=pointer]
+        - tabpanel "Bills Weekly Statistics" [ref=e663]:
+          - table [ref=e665]:
+            - rowgroup [ref=e666]:
+              - row "Total Invoice Generated ৳0" [ref=e667]:
+                - cell "Total Invoice Generated" [ref=e668]:
+                  - heading "Total" [level=5] [ref=e669]
+                  - paragraph [ref=e670]: Invoice Generated
+                - cell "৳0" [ref=e671]:
+                  - heading "৳0" [level=4] [ref=e672]
+              - row "Total Paid ৳0" [ref=e673]:
+                - cell "Total Paid" [ref=e674]:
+                  - heading "Total" [level=5] [ref=e675]
+                  - paragraph [ref=e676]: Paid
+                - cell "৳0" [ref=e677]:
+                  - heading "৳0" [level=4] [ref=e678]
+              - row "Total Due ৳0" [ref=e679]:
+                - cell "Total Due" [ref=e680]:
+                  - heading "Total" [level=5] [ref=e681]
+                  - paragraph [ref=e682]: Due
+                - cell "৳0" [ref=e683]:
+                  - heading "৳0" [level=4] [ref=e684]
+      - generic [ref=e686]:
+        - heading "Recent Bills" [level=5] [ref=e688]
+        - table [ref=e691]:
+          - rowgroup [ref=e692]:
+            - row "# Vendor Bill Date Due Date Amount Status" [ref=e693]:
+              - cell "#" [ref=e694]
+              - cell "Vendor" [ref=e695]
+              - cell "Bill Date" [ref=e696]
+              - cell "Due Date" [ref=e697]
+              - cell "Amount" [ref=e698]
+              - cell "Status" [ref=e699]
+          - rowgroup [ref=e700]:
+            - row "#BILL00002 Prince Mohammad 08-09-2025 08-09-2025 ৳141.750 Sent" [ref=e701]:
+              - cell "#BILL00002" [ref=e702]
+              - cell "Prince Mohammad" [ref=e703]
+              - cell "08-09-2025" [ref=e704]
+              - cell "08-09-2025" [ref=e705]
+              - cell "৳141.750" [ref=e706]
+              - cell "Sent" [ref=e707]:
+                - generic [ref=e708]: Sent
+            - row "#BILL00001 4axiz IT LTD 08-09-2025 08-09-2025 ৳94.500 Sent" [ref=e709]:
+              - cell "#BILL00001" [ref=e710]
+              - cell "4axiz IT LTD" [ref=e711]
+              - cell "08-09-2025" [ref=e712]
+              - cell "08-09-2025" [ref=e713]
+              - cell "৳94.500" [ref=e714]
+              - cell "Sent" [ref=e715]:
+                - generic [ref=e716]: Sent
+            - row "#BILL00001 4axiz IT LTD 06-09-2025 06-09-2025 ৳103.250 Sent" [ref=e717]:
+              - cell "#BILL00001" [ref=e718]
+              - cell "4axiz IT LTD" [ref=e719]
+              - cell "06-09-2025" [ref=e720]
+              - cell "06-09-2025" [ref=e721]
+              - cell "৳103.250" [ref=e722]
+              - cell "Sent" [ref=e723]:
+                - generic [ref=e724]: Sent
+            - row "#BILL00003 4axiz 01-09-2025 01-09-2025 ৳945.000 Draft" [ref=e725]:
+              - cell "#BILL00003" [ref=e726]
+              - cell "4axiz" [ref=e727]
+              - cell "01-09-2025" [ref=e728]
+              - cell "01-09-2025" [ref=e729]
+              - cell "৳945.000" [ref=e730]
+              - cell "Draft" [ref=e731]:
+                - generic [ref=e732]: Draft
+            - row "#BILL00002 4axiz IT LTD 31-08-2025 31-08-2025 ৳472.500 Sent" [ref=e733]:
+              - cell "#BILL00002" [ref=e734]
+              - cell "4axiz IT LTD" [ref=e735]
+              - cell "31-08-2025" [ref=e736]
+              - cell "31-08-2025" [ref=e737]
+              - cell "৳472.500" [ref=e738]
+              - cell "Sent" [ref=e739]:
+                - generic [ref=e740]: Sent
+      - generic [ref=e742]:
+        - tablist [ref=e744]:
+          - listitem [ref=e745]:
+            - tab "Bills Weekly Statistics" [selected] [ref=e746] [cursor=pointer]
+          - listitem [ref=e747]:
+            - tab "Bills Monthly Statistics" [ref=e748] [cursor=pointer]
+        - tabpanel "Bills Weekly Statistics" [ref=e751]:
+          - table [ref=e753]:
+            - rowgroup [ref=e754]:
+              - row "Total Bill Generated ৳0" [ref=e755]:
+                - cell "Total Bill Generated" [ref=e756]:
+                  - heading "Total" [level=5] [ref=e757]
+                  - paragraph [ref=e758]: Bill Generated
+                - cell "৳0" [ref=e759]:
+                  - heading "৳0" [level=4] [ref=e760]
+              - row "Total Paid ৳0" [ref=e761]:
+                - cell "Total Paid" [ref=e762]:
+                  - heading "Total" [level=5] [ref=e763]
+                  - paragraph [ref=e764]: Paid
+                - cell "৳0" [ref=e765]:
+                  - heading "৳0" [level=4] [ref=e766]
+              - row "Total Due ৳0" [ref=e767]:
+                - cell "Total Due" [ref=e768]:
+                  - heading "Total" [level=5] [ref=e769]
+                  - paragraph [ref=e770]: Due
+                - cell "৳0" [ref=e771]:
+                  - heading "৳0" [level=4] [ref=e772]
+  - contentinfo [ref=e773]:
+    - generic [ref=e775]: Copyright © 4axiz IT Limited 2025
+  - img
+  - dialog "We use cookies!" [ref=e777]:
+    - generic [ref=e778]:
+      - generic [ref=e779]:
+        - heading "We use cookies!" [level=2] [ref=e780]
+        - generic [ref=e781]:
+          - text: Hi, this website uses essential cookies to ensure its proper operation and tracking cookies to understand how you interact with it.
+          - button "Let me choose" [ref=e782] [cursor=pointer]
+      - generic [ref=e783]:
+        - button "Accept all" [ref=e784] [cursor=pointer]
+        - button "Reject all" [ref=e785] [cursor=pointer]
+  - generic [ref=e786]:
+    - generic [ref=e788]:
+      - generic [ref=e790]:
+        - generic [ref=e791] [cursor=pointer]:
+          - generic: 
+        - generic [ref=e792] [cursor=pointer]:
+          - generic: 
+        - generic [ref=e793] [cursor=pointer]:
+          - generic: 
+        - generic [ref=e794] [cursor=pointer]:
+          - generic: 
+          - generic [ref=e795]: "8"
+        - generic [ref=e796] [cursor=pointer]:
+          - generic: 
+        - generic [ref=e797] [cursor=pointer]:
+          - generic: 
+          - generic [ref=e798]: "192"
+        - generic [ref=e799] [cursor=pointer]:
+          - generic: 
+          - generic [ref=e800]: "244"
+        - generic [ref=e801] [cursor=pointer]:
+          - generic: 
+          - generic [ref=e802]: "0"
+        - generic [ref=e803] [cursor=pointer]:
+          - generic: 
+        - generic [ref=e804] [cursor=pointer]:
+          - generic: 
+        - generic [ref=e805] [cursor=pointer]:
+          - generic: 
+        - generic [ref=e806] [cursor=pointer]:
+          - generic: 
+      - generic [ref=e807]:
+        - generic [ref=e811] [cursor=pointer]:
+          - generic: 
+        - generic [ref=e812]:
+          - generic: 
+          - generic: 8.2.29
+        - generic [ref=e813]:
+          - generic: 
+          - generic: 1.37s
+        - generic [ref=e814]:
+          - generic: 
+          - generic: 10MB
+        - generic [ref=e815]:
+          - generic: 
+          - generic: GET dashboard/account
+    - text:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+  - text: 
+```
