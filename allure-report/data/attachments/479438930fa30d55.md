@@ -1,0 +1,93 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - generic:
+      - img [ref=e3]
+      - img [ref=e4]
+    - generic [ref=e6]:
+      - banner [ref=e7]:
+        - navigation [ref=e8]:
+          - generic [ref=e9]:
+            - link "NGOF ERP" [ref=e11] [cursor=pointer]:
+              - /url: https://ngof.4axizerp.com
+              - img "NGOF ERP" [ref=e12]
+            - list [ref=e14]:
+              - listitem [ref=e15]:
+                - link "About Us" [ref=e16] [cursor=pointer]:
+                  - /url: https://ngof.4axizerp.com/pages/about_us
+              - listitem [ref=e17]:
+                - link "Terms and Conditions" [ref=e18] [cursor=pointer]:
+                  - /url: https://ngof.4axizerp.com/pages/terms_and_conditions
+              - listitem [ref=e19]:
+                - link "Privacy Policy" [ref=e20] [cursor=pointer]:
+                  - /url: https://ngof.4axizerp.com/pages/privacy_policy
+              - listitem [ref=e22]:
+                - link "EN" [ref=e23] [cursor=pointer]:
+                  - /url: "#"
+                  - generic [ref=e24]: EN
+      - main [ref=e25]:
+        - generic [ref=e29]:
+          - heading "Login" [level=2] [ref=e31]
+          - generic [ref=e33]:
+            - generic [ref=e34]:
+              - generic [ref=e35]: Email
+              - textbox "E-Mail Address" [active] [ref=e36]
+            - generic [ref=e37]:
+              - generic [ref=e38]: Password
+              - textbox "Password" [ref=e39]
+              - link "Forgot Your Password?" [ref=e41] [cursor=pointer]:
+                - /url: https://ngof.4axizerp.com/forgot-password/en
+            - button "Login" [ref=e43] [cursor=pointer]
+      - contentinfo [ref=e44]:
+        - generic [ref=e48]: Copyright © NGOF ERP 2025
+  - generic [ref=e49]:
+    - generic [ref=e51]:
+      - generic [ref=e53]:
+        - generic [ref=e54] [cursor=pointer]:
+          - generic: 
+        - generic [ref=e55] [cursor=pointer]:
+          - generic: 
+        - generic [ref=e56] [cursor=pointer]:
+          - generic: 
+        - generic [ref=e57] [cursor=pointer]:
+          - generic: 
+          - generic [ref=e58]: "4"
+        - generic [ref=e59] [cursor=pointer]:
+          - generic: 
+        - generic [ref=e60] [cursor=pointer]:
+          - generic: 
+          - generic [ref=e61]: "5"
+        - generic [ref=e62] [cursor=pointer]:
+          - generic: 
+          - generic [ref=e63]: "66"
+        - generic [ref=e64] [cursor=pointer]:
+          - generic: 
+          - generic [ref=e65]: "0"
+        - generic [ref=e66] [cursor=pointer]:
+          - generic: 
+        - generic [ref=e67] [cursor=pointer]:
+          - generic: 
+        - generic [ref=e68] [cursor=pointer]:
+          - generic: 
+        - generic [ref=e69] [cursor=pointer]:
+          - generic: 
+      - generic [ref=e70]:
+        - generic [ref=e74] [cursor=pointer]:
+          - generic: 
+        - generic [ref=e75]:
+          - generic: 
+          - generic: 8.2.29
+        - generic [ref=e76]:
+          - generic: 
+          - generic: 164ms
+        - generic [ref=e77]:
+          - generic: 
+          - generic: 7MB
+        - generic [ref=e78]:
+          - generic: 
+          - generic: "GET login/{lang?}"
+    - text:                                               
+  - text: 
+```
