@@ -24,22 +24,25 @@ test.describe("NGO Forum ERP",()=>{
     test("Successfully Login with valid Information",async()=>{
         await page.waitForTimeout(2000);
          await account.enterEmail("admin@ngof.org");
-         await page.waitForTimeout(5000);
+         await page.waitForTimeout(3000);
          await account.enterPassword("11112222");
          await page.waitForTimeout(5000);
          await account.clickButtonLogin();        
     });
 
-    // test("Verify HRM button expands Menu Successfully",async ()=>{
 
 
-    //     await account.clickButtonHrm();
-    //     await account.clickButtonEmployee();
-    //     await page.pause()
+    test("Verify HRM button expands Menu Successfully",async ()=>{
+
+
+        await account.clickButtonHrm();
+        // await page.waitForTimeout(3000);
+        await account.clickButtonEmployee();
+        await page.pause()
 
 
 
-    // });
+    });
 
     
     
