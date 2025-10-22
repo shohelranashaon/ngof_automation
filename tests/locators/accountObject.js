@@ -9,7 +9,10 @@ export default class AccountObjects{
         this.clickButtonHrm =this.page.locator("//span[normalize-space()='HRM']");
         this.clickButtonEmployee = this.page.locator("//a[normalize-space()='Employee']");
         this.addNewEmployee = this.page.locator("//i[@class='ti ti-plus']")
-
+        this.enterEmployeeName = this.page.locator("//input[@id='name']");
+        this.enterPhoneNumber = this.page.locator("//input[@id='phone']");
+        this.enterEmailAddress = this.page.locator("//input[@id='email']");
+        this.enterPassword =this.page.locator("//input[@id='password']");
 
 
     }

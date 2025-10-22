@@ -1,6 +1,7 @@
 
 import {test} from "@playwright/test";
 import Account from "../pages/account.js";
+import { generateRandomName } from "../../Utilities/helper.js";
 
 test.describe.configure({mode: "serial" })
 
@@ -38,7 +39,7 @@ test.describe("NGO Forum ERP",()=>{
 
 
         await account.clickButtonHrm();
-        // await page.waitForTimeout(3000);
+        await page.waitForTimeout(2000);
         await account.clickButtonEmployee();
         // await page.pause()
 
@@ -50,6 +51,13 @@ test.describe("NGO Forum ERP",()=>{
     test("New Employee plus Button works properly",async()=>{
 
         await account.addNewEmployee();
+
+    });
+
+    test("Insert New Employee Successfully",async()=>{
+
+        await account.enterEmployeeName();
+
         // await page.pause();
 
     });

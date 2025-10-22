@@ -1,0 +1,516 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link [ref=e5] [cursor=pointer]:
+        - /url: https://ngof.4axizerp.com/home
+      - generic [ref=e7]:
+        - generic [ref=e8]: 
+        - textbox "Search" [ref=e9]:
+          - /placeholder: Search . . .
+      - list [ref=e11]:
+        - listitem [ref=e12]:
+          - link " Dashboard" [ref=e13] [cursor=pointer]:
+            - /url: "#!"
+            - generic [ref=e15]: 
+            - generic [ref=e16]: Dashboard
+          - list [ref=e17]:
+            - listitem [ref=e18]:
+              - link "Accounting Dashboard" [ref=e19] [cursor=pointer]:
+                - /url: https://ngof.4axizerp.com/dashboard/account
+            - listitem [ref=e20]:
+              - link "HRM Dashboard" [ref=e21] [cursor=pointer]:
+                - /url: https://ngof.4axizerp.com/dashboard/hrm
+        - listitem [ref=e22]:
+          - link " User Management" [ref=e23] [cursor=pointer]:
+            - /url: "#!"
+            - generic [ref=e25]: 
+            - generic [ref=e26]: User Management
+          - list [ref=e27]:
+            - listitem [ref=e28]:
+              - link "User" [ref=e29] [cursor=pointer]:
+                - /url: https://ngof.4axizerp.com/users
+            - listitem [ref=e30]:
+              - link "Role" [ref=e31] [cursor=pointer]:
+                - /url: https://ngof.4axizerp.com/roles
+        - listitem [ref=e32]:
+          - link " HRM" [ref=e33] [cursor=pointer]:
+            - /url: "#!"
+            - generic [ref=e35]: 
+            - generic [ref=e36]: HRM
+          - list [ref=e37]:
+            - listitem [ref=e38]:
+              - link "Employee" [ref=e39] [cursor=pointer]:
+                - /url: https://ngof.4axizerp.com/employee
+            - listitem [ref=e40]:
+              - link "Payroll" [ref=e41] [cursor=pointer]:
+                - /url: "#!"
+                - text: Payroll
+              - list [ref=e42]:
+                - listitem [ref=e43]:
+                  - link "Manage Loan" [ref=e44] [cursor=pointer]:
+                    - /url: https://ngof.4axizerp.com/loan
+                - listitem [ref=e45]:
+                  - link "Set Salary" [ref=e46] [cursor=pointer]:
+                    - /url: https://ngof.4axizerp.com/setsalary
+                - listitem [ref=e47]:
+                  - link "Set Projects" [ref=e48] [cursor=pointer]:
+                    - /url: https://ngof.4axizerp.com/setproject
+            - listitem [ref=e49]:
+              - link "Attendance" [ref=e50] [cursor=pointer]:
+                - /url: "#!"
+                - text: Attendance
+              - list [ref=e51]:
+                - listitem [ref=e52]:
+                  - link "Mark Attendance" [ref=e53] [cursor=pointer]:
+                    - /url: https://ngof.4axizerp.com/attendance
+                - listitem [ref=e54]:
+                  - link "Bulk Attendance" [ref=e55] [cursor=pointer]:
+                    - /url: https://ngof.4axizerp.com/bulkattendance
+            - listitem [ref=e56]:
+              - link "Manage Leave" [ref=e57] [cursor=pointer]:
+                - /url: https://ngof.4axizerp.com/leave
+            - listitem [ref=e58]:
+              - link "Manage Movement" [ref=e59] [cursor=pointer]:
+                - /url: https://ngof.4axizerp.com/movement
+            - listitem [ref=e60]:
+              - link "Manage Trip" [ref=e61] [cursor=pointer]:
+                - /url: https://ngof.4axizerp.com/trip
+            - listitem [ref=e62]:
+              - link "HR Admin" [ref=e63] [cursor=pointer]:
+                - /url: "#!"
+                - text: HR Admin
+              - list [ref=e64]:
+                - listitem [ref=e65]:
+                  - link "Award" [ref=e66] [cursor=pointer]:
+                    - /url: https://ngof.4axizerp.com/award
+                - listitem [ref=e67]:
+                  - link "Transfer" [ref=e68] [cursor=pointer]:
+                    - /url: https://ngof.4axizerp.com/transfer
+                - listitem [ref=e69]:
+                  - link "Resignation" [ref=e70] [cursor=pointer]:
+                    - /url: https://ngof.4axizerp.com/resignation
+                - listitem [ref=e71]:
+                  - link "Promotion" [ref=e72] [cursor=pointer]:
+                    - /url: https://ngof.4axizerp.com/promotion
+                - listitem [ref=e73]:
+                  - link "Complaints" [ref=e74] [cursor=pointer]:
+                    - /url: https://ngof.4axizerp.com/complaint
+                - listitem [ref=e75]:
+                  - link "Warning" [ref=e76] [cursor=pointer]:
+                    - /url: https://ngof.4axizerp.com/warning
+                - listitem [ref=e77]:
+                  - link "Separation" [ref=e78] [cursor=pointer]:
+                    - /url: https://ngof.4axizerp.com/termination
+                - listitem [ref=e79]:
+                  - link "Announcement" [ref=e80] [cursor=pointer]:
+                    - /url: https://ngof.4axizerp.com/announcement
+                - listitem [ref=e81]:
+                  - link "Holidays" [ref=e82] [cursor=pointer]:
+                    - /url: https://ngof.4axizerp.com/holiday
+            - listitem [ref=e83]:
+              - link "Event" [ref=e84] [cursor=pointer]:
+                - /url: https://ngof.4axizerp.com/event
+            - listitem [ref=e85]:
+              - link "Document" [ref=e86] [cursor=pointer]:
+                - /url: https://ngof.4axizerp.com/document
+            - listitem [ref=e87]:
+              - link "Company Policy" [ref=e88] [cursor=pointer]:
+                - /url: https://ngof.4axizerp.com/company-policy
+            - listitem [ref=e89]:
+              - link "System Setup" [ref=e90] [cursor=pointer]:
+                - /url: https://ngof.4axizerp.com/branch
+            - listitem [ref=e91]:
+              - link "Report" [ref=e92] [cursor=pointer]:
+                - /url: "#!"
+                - text: Report
+              - list [ref=e93]:
+                - listitem [ref=e94]:
+                  - link "Attendance" [ref=e95] [cursor=pointer]:
+                    - /url: https://ngof.4axizerp.com/report/monthly/attendance
+                - listitem [ref=e96]:
+                  - link "Employee Attendance" [ref=e97] [cursor=pointer]:
+                    - /url: https://ngof.4axizerp.com/report/employee/attendance
+                - listitem [ref=e98]:
+                  - link "Leave" [ref=e99] [cursor=pointer]:
+                    - /url: https://ngof.4axizerp.com/report/leave
+                - listitem [ref=e100]:
+                  - link "Time Sheet" [ref=e101] [cursor=pointer]:
+                    - /url: https://ngof.4axizerp.com/report/timesheet
+                - listitem [ref=e102]:
+                  - link "Budget Allocation" [ref=e103] [cursor=pointer]:
+                    - /url: https://ngof.4axizerp.com/report/budget/allocation
+                - listitem [ref=e104]:
+                  - link "Payslip" [ref=e105] [cursor=pointer]:
+                    - /url: https://ngof.4axizerp.com/payslip
+                - listitem [ref=e106]:
+                  - link "Monthly Salary" [ref=e107] [cursor=pointer]:
+                    - /url: https://ngof.4axizerp.com/report/monthly/project/salary
+                - listitem [ref=e108]:
+                  - link "Bank Letter" [ref=e109] [cursor=pointer]:
+                    - /url: https://ngof.4axizerp.com/report/project/bankletter
+        - listitem [ref=e110]:
+          - link " Biometric" [ref=e111] [cursor=pointer]:
+            - /url: "#!"
+            - generic [ref=e113]: 
+            - generic [ref=e114]: Biometric
+          - list [ref=e115]:
+            - listitem [ref=e116]:
+              - link "Device" [ref=e117] [cursor=pointer]:
+                - /url: https://ngof.4axizerp.com/device
+            - listitem [ref=e118]:
+              - link "Logs" [ref=e119] [cursor=pointer]:
+                - /url: https://ngof.4axizerp.com/devicelog
+        - listitem [ref=e120]:
+          - link " Projects" [ref=e121] [cursor=pointer]:
+            - /url: https://ngof.4axizerp.com/projects
+            - generic [ref=e123]: 
+            - generic [ref=e124]: Projects
+        - listitem [ref=e125]:
+          - link " Procurement" [ref=e126] [cursor=pointer]:
+            - /url: "#!"
+            - generic [ref=e128]: 
+            - generic [ref=e129]: Procurement
+          - list [ref=e130]:
+            - listitem [ref=e131]:
+              - link "Items" [ref=e132] [cursor=pointer]:
+                - /url: https://ngof.4axizerp.com/product-service
+            - listitem [ref=e133]:
+              - link "Vendor" [ref=e134] [cursor=pointer]:
+                - /url: https://ngof.4axizerp.com/vendors
+            - listitem [ref=e135]:
+              - link "Requisition" [ref=e136] [cursor=pointer]:
+                - /url: https://ngof.4axizerp.com/purchase-requisition
+            - listitem [ref=e137]:
+              - link "Purchase Order" [ref=e138] [cursor=pointer]:
+                - /url: https://ngof.4axizerp.com/purchases
+            - listitem [ref=e139]:
+              - link "MRR" [ref=e140] [cursor=pointer]:
+                - /url: https://ngof.4axizerp.com/material-receive/index
+            - listitem [ref=e141]:
+              - link "WCC" [ref=e142] [cursor=pointer]:
+                - /url: https://ngof.4axizerp.com/work_completion/index
+            - listitem [ref=e143]:
+              - link "Approval Settings" [ref=e144] [cursor=pointer]:
+                - /url: https://ngof.4axizerp.com/setting/procurement_approval_page
+            - listitem [ref=e145]:
+              - link "Warehouse" [ref=e146] [cursor=pointer]:
+                - /url: https://ngof.4axizerp.com/warehouses
+            - listitem [ref=e147]:
+              - link "Transfer" [ref=e148] [cursor=pointer]:
+                - /url: https://ngof.4axizerp.com/warehouses-transfer
+            - listitem [ref=e149]:
+              - link "Report" [ref=e150] [cursor=pointer]:
+                - /url: "#!"
+                - text: Report
+              - list [ref=e151]:
+                - listitem [ref=e152]:
+                  - link "Purchase Daily/Monthly Report" [ref=e153] [cursor=pointer]:
+                    - /url: https://ngof.4axizerp.com/reports-daily-purchases
+                - listitem [ref=e154]:
+                  - link "Warehouse Report" [ref=e155] [cursor=pointer]:
+                    - /url: https://ngof.4axizerp.com/reports-warehouses
+        - listitem [ref=e156]:
+          - link " Accounting" [ref=e157] [cursor=pointer]:
+            - /url: "#!"
+            - generic [ref=e159]: 
+            - generic [ref=e160]: Accounting
+          - list [ref=e161]:
+            - listitem [ref=e162]:
+              - link "Customer" [ref=e163] [cursor=pointer]:
+                - /url: https://ngof.4axizerp.com/customer
+            - listitem [ref=e164]:
+              - link "Vendor" [ref=e165] [cursor=pointer]:
+                - /url: https://ngof.4axizerp.com/vendors
+            - listitem [ref=e166]:
+              - link "Banking" [ref=e167] [cursor=pointer]:
+                - /url: "#!"
+                - text: Banking
+              - list [ref=e168]:
+                - listitem [ref=e169]:
+                  - link "Account" [ref=e170] [cursor=pointer]:
+                    - /url: https://ngof.4axizerp.com/bank-account
+                - listitem [ref=e171]:
+                  - link "Chart Of Accounts" [ref=e172] [cursor=pointer]:
+                    - /url: https://ngof.4axizerp.com/chart-of-account
+                - listitem [ref=e173]:
+                  - link "Transfer" [ref=e174] [cursor=pointer]:
+                    - /url: https://ngof.4axizerp.com/bank-transfer
+            - listitem [ref=e175]:
+              - link "Income" [ref=e176] [cursor=pointer]:
+                - /url: "#!"
+                - text: Income
+              - list [ref=e177]:
+                - listitem [ref=e178]:
+                  - link "Revenue" [ref=e179] [cursor=pointer]:
+                    - /url: https://ngof.4axizerp.com/revenue
+                - listitem [ref=e180]:
+                  - link "Credit Notes" [ref=e181] [cursor=pointer]:
+                    - /url: https://ngof.4axizerp.com/customer-credits-note
+            - listitem [ref=e182]:
+              - link "Expense" [ref=e183] [cursor=pointer]:
+                - /url: "#!"
+                - text: Expense
+              - list [ref=e184]:
+                - listitem [ref=e185]:
+                  - link "Bill" [ref=e186] [cursor=pointer]:
+                    - /url: https://ngof.4axizerp.com/bill
+                - listitem [ref=e187]:
+                  - link "Payment" [ref=e188] [cursor=pointer]:
+                    - /url: https://ngof.4axizerp.com/payment
+                - listitem [ref=e189]:
+                  - link "Debit Notes" [ref=e190] [cursor=pointer]:
+                    - /url: https://ngof.4axizerp.com/debit-note
+            - listitem [ref=e191]:
+              - link "Report" [ref=e192] [cursor=pointer]:
+                - /url: "#!"
+                - text: Report
+              - list [ref=e193]:
+                - listitem [ref=e194]:
+                  - link "Transaction" [ref=e195] [cursor=pointer]:
+                    - /url: https://ngof.4axizerp.com/report/transaction
+                - listitem [ref=e196]:
+                  - link "Account Statement" [ref=e197] [cursor=pointer]:
+                    - /url: https://ngof.4axizerp.com/report/account-statement-report
+                - listitem [ref=e198]:
+                  - link "Income Summary" [ref=e199] [cursor=pointer]:
+                    - /url: https://ngof.4axizerp.com/report/income-summary
+                - listitem [ref=e200]:
+                  - link "Expense Summary" [ref=e201] [cursor=pointer]:
+                    - /url: https://ngof.4axizerp.com/report/expense-summary
+                - listitem [ref=e202]:
+                  - link "Income Vs Expense" [ref=e203] [cursor=pointer]:
+                    - /url: https://ngof.4axizerp.com/report/income-vs-expense-summary
+                - listitem [ref=e204]:
+                  - link "Tax Summary" [ref=e205] [cursor=pointer]:
+                    - /url: https://ngof.4axizerp.com/report/tax-summary
+                - listitem [ref=e206]:
+                  - link "Profit & Loss" [ref=e207] [cursor=pointer]:
+                    - /url: https://ngof.4axizerp.com/report/profit-loss-summary
+                - listitem [ref=e208]:
+                  - link "Invoice Summary" [ref=e209] [cursor=pointer]:
+                    - /url: https://ngof.4axizerp.com/report/invoice-summary
+                - listitem [ref=e210]:
+                  - link "Bill Summary" [ref=e211] [cursor=pointer]:
+                    - /url: https://ngof.4axizerp.com/report/bill-summary
+                - listitem [ref=e212]:
+                  - link "Product Stock" [ref=e213] [cursor=pointer]:
+                    - /url: https://ngof.4axizerp.com/report/product-stock-report
+                - listitem [ref=e214]:
+                  - link "Cash Flow" [ref=e215] [cursor=pointer]:
+                    - /url: https://ngof.4axizerp.com/report/cash-flow
+        - listitem [ref=e216]:
+          - link " Activity Log" [ref=e217] [cursor=pointer]:
+            - /url: https://ngof.4axizerp.com/activitylog
+            - generic [ref=e219]: 
+            - generic [ref=e220]: Activity Log
+        - listitem [ref=e221]:
+          - link " Messenger" [ref=e222] [cursor=pointer]:
+            - /url: https://ngof.4axizerp.com/chatify
+            - generic [ref=e224]: 
+            - generic [ref=e225]: Messenger
+        - listitem [ref=e226]:
+          - link " Helpdesk" [ref=e227] [cursor=pointer]:
+            - /url: https://ngof.4axizerp.com/helpdesk
+            - generic [ref=e229]: 
+            - generic [ref=e230]: Helpdesk
+        - listitem [ref=e231]:
+          - link " Settings" [ref=e232] [cursor=pointer]:
+            - /url: https://ngof.4axizerp.com/settings
+            - generic [ref=e234]: 
+            - generic [ref=e235]: Settings
+  - banner [ref=e236]:
+    - generic [ref=e237]:
+      - list [ref=e239]:
+        - listitem [ref=e240]:
+          - button "# NGOF " [ref=e241] [cursor=pointer]:
+            - img "#" [ref=e243]
+            - generic [ref=e244]: NGOF
+            - generic [ref=e245]: 
+          - text:  
+        - listitem [ref=e246]:
+          - link "" [ref=e247] [cursor=pointer]:
+            - /url: https://ngof.4axizerp.com/config-cache
+            - generic [ref=e248]: 
+      - list [ref=e250]:
+        - listitem [ref=e251]:
+          - link " 0" [ref=e252] [cursor=pointer]:
+            - /url: https://ngof.4axizerp.com/chatify
+            - generic [ref=e253]: 
+            - generic [ref=e254]: "0"
+        - listitem [ref=e256]:
+          - link " Create Workspace" [ref=e257] [cursor=pointer]:
+            - /url: "#!"
+            - generic [ref=e258]: 
+            - generic [ref=e259]: Create Workspace
+        - listitem [ref=e260]:
+          - button " Central Office " [ref=e261] [cursor=pointer]:
+            - generic [ref=e262]: 
+            - generic [ref=e263]: Central Office
+            - generic [ref=e264]: 
+          - text:    
+        - listitem [ref=e265]:
+          - button " EN " [ref=e266] [cursor=pointer]:
+            - generic [ref=e267]: 
+            - generic [ref=e268]: EN
+            - generic [ref=e269]: 
+  - generic [ref=e271]:
+    - generic [ref=e275]:
+      - heading "Create Employee" [level=4] [ref=e277]
+      - list [ref=e278]:
+        - listitem [ref=e279]:
+          - link "Dashboard" [ref=e280] [cursor=pointer]:
+            - /url: https://ngof.4axizerp.com/dashboard
+        - listitem [ref=e281]: Employee
+    - tablist [ref=e286]:
+      - button "Personal Details" [ref=e287] [cursor=pointer]
+      - button "Company Details" [ref=e288] [cursor=pointer]
+    - generic [ref=e294]:
+      - tabpanel [ref=e295]:
+        - generic [ref=e296]:
+          - generic [ref=e297]:
+            - heading "Personal Details" [level=5] [ref=e298]
+            - separator [ref=e299]
+            - generic [ref=e300]:
+              - generic [ref=e301]:
+                - generic [ref=e302]: Name
+                - text: "*"
+                - textbox "Name" [ref=e304]:
+                  - /placeholder: Enter Employee Name
+              - generic [ref=e306]:
+                - generic [ref=e307]: Phone
+                - text: "*"
+                - textbox "Phone" [ref=e308]:
+                  - /placeholder: Enter Employee Phone
+              - generic [ref=e309]:
+                - generic [ref=e310]: Email Address
+                - text: "*"
+                - textbox "Email Address" [ref=e311]:
+                  - /placeholder: Enter Employee Email
+              - generic [ref=e312]:
+                - generic [ref=e313]: Password
+                - text: "*"
+                - textbox "Password" [ref=e314]:
+                  - /placeholder: Enter Employee New Password
+              - generic [ref=e315]:
+                - generic [ref=e316]: Date of Birth
+                - text: "*"
+                - textbox "Date of Birth" [ref=e317]:
+                  - /placeholder: Select Date of Birth
+                  - text: 2025-10-21
+              - generic [ref=e318]:
+                - generic [ref=e319]: Gender
+                - text: "*"
+                - generic [ref=e320]:
+                  - generic [ref=e321]:
+                    - radio "Male" [checked] [ref=e322]
+                    - generic [ref=e323]: Male
+                  - generic [ref=e324]:
+                    - radio "Female" [ref=e325]
+                    - generic [ref=e326]: Female
+              - generic [ref=e327]:
+                - generic [ref=e328]: Blood Group
+                - combobox "Blood Group" [ref=e329]:
+                  - option "Select Blood Group" [selected]
+                  - option "A+"
+                  - option "A-"
+                  - option "B+"
+                  - option "B-"
+                  - option "O+"
+                  - option "O-"
+                  - option "AB+"
+                  - option "AB-"
+              - generic [ref=e330]:
+                - generic [ref=e331]: National ID
+                - textbox "National ID" [ref=e333]:
+                  - /placeholder: Enter National ID
+              - generic [ref=e334]:
+                - generic [ref=e335]: Passport country
+                - textbox "Passport country" [ref=e337]:
+                  - /placeholder: Enter Passport Country
+              - generic [ref=e338]:
+                - generic [ref=e339]: Passport
+                - textbox "Passport" [ref=e341]:
+                  - /placeholder: Enter Passport
+          - generic [ref=e342]:
+            - heading "Bank Account Detail" [level=5] [ref=e343]
+            - separator [ref=e344]
+            - generic [ref=e345]:
+              - generic [ref=e346]:
+                - generic [ref=e347]: Account Holder Name
+                - textbox "Account Holder Name" [ref=e348]:
+                  - /placeholder: Enter Account Holder Name
+              - generic [ref=e349]:
+                - generic [ref=e350]: Account Number
+                - spinbutton "Account Number" [ref=e351]
+              - generic [ref=e352]:
+                - generic [ref=e353]: Bank Name
+                - textbox "Bank Name" [ref=e354]:
+                  - /placeholder: Enter Bank Name
+              - generic [ref=e355]:
+                - generic [ref=e356]: Bank Identifier Code
+                - textbox "Bank Identifier Code" [ref=e357]:
+                  - /placeholder: Enter Bank Identifier Code
+              - generic [ref=e358]:
+                - generic [ref=e359]: Branch Location
+                - textbox "Branch Location" [ref=e360]:
+                  - /placeholder: Enter Branch Location
+              - generic [ref=e361]:
+                - generic [ref=e362]: Tax Payer Id
+                - textbox "Tax Payer Id" [ref=e363]:
+                  - /placeholder: Enter Tax Payer Id
+              - generic [ref=e364]:
+                - heading "Address Details" [level=5] [ref=e365]
+                - separator [ref=e366]
+                - generic [ref=e367]:
+                  - generic [ref=e368]:
+                    - generic [ref=e369]: Present Address
+                    - text: "*"
+                    - textbox "Present Address" [ref=e370]:
+                      - /placeholder: Enter Employee Address
+                  - generic [ref=e371]:
+                    - generic [ref=e372]: Permanent Address
+                    - text: "*"
+                    - textbox "Permanent Address" [ref=e373]:
+                      - /placeholder: Enter Employee Address
+        - generic [ref=e375]:
+          - heading "Document" [level=5] [ref=e376]
+          - separator [ref=e377]
+          - generic [ref=e378]:
+            - generic [ref=e380]:
+              - generic [ref=e381]:
+                - generic [ref=e382]: Salary Certificate
+                - generic [ref=e384]:
+                  - button [ref=e385] [cursor=pointer]
+                  - separator [ref=e386]
+              - img "your image" [ref=e388]
+            - generic [ref=e390]:
+              - generic [ref=e391]:
+                - generic [ref=e392]: No Objection Certificate (NOC)
+                - generic [ref=e394]:
+                  - button [ref=e395] [cursor=pointer]
+                  - separator [ref=e396]
+              - img "your image" [ref=e398]
+            - generic [ref=e400]:
+              - generic [ref=e401]:
+                - generic [ref=e402]: Experience Certificate
+                - generic [ref=e404]:
+                  - button [ref=e405] [cursor=pointer]
+                  - separator [ref=e406]
+              - img "your image" [ref=e408]
+            - generic [ref=e410]:
+              - generic [ref=e411]:
+                - generic [ref=e412]: NID
+                - generic [ref=e414]:
+                  - button [ref=e415] [cursor=pointer]
+                  - separator [ref=e416]
+              - img "your image" [ref=e418]
+        - button "Next " [ref=e422] [cursor=pointer]:
+          - text: Next
+          - generic [ref=e423]: 
+      - text: 
+  - contentinfo [ref=e424]:
+    - generic [ref=e426]: Copyright © 4axiz IT Limited 2025
+```

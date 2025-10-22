@@ -1,3 +1,4 @@
+import { generateRandomName } from "../../Utilities/helper";
 import AccountObjects from "../locators/accountObject";
 
 export default class Account{
@@ -36,6 +37,11 @@ export default class Account{
         async addNewEmployee(){
 
             await this.locator.addNewEmployee.click();
+        }
+
+        async enterEmployeeName(){
+
+            await this.locator.enterEmployeeName.fill(generateRandomName());
         }
 
 }
