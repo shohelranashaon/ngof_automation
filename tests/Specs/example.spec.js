@@ -62,6 +62,11 @@ test.describe("NGO Forum ERP",()=>{
 
     });
 
+    test("Insert Employee Email Successfully",async()=>{
+
+        await account.enterEmailAddress();
+    })
+
     
     
 
