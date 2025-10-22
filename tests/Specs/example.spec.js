@@ -1,6 +1,6 @@
 
 import {test} from "@playwright/test";
-import Account from "../tests/pages/account.js";
+import Account from "../pages/account.js";
 
 test.describe.configure({mode: "serial" })
 
@@ -11,6 +11,8 @@ test.describe("NGO Forum ERP",()=>{
     //     account = new Account(page);
     //     await page.goto("https://ngof.4axizerp.com/login");
     // });
+
+    
         test.beforeAll(async({browser})=>{
             context = await browser.newContext();
             page =await context.newPage();
