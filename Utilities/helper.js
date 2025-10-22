@@ -16,3 +16,11 @@ export function generateRandomEmail(){
     return randomEmail;
 
 }
+
+export function generateRandomNumber(){
+
+    const currentDate = Date.now();
+    const randomNumber = `01_${currentDate}`;
+    return randomNumber;
+
+}
