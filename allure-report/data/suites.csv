@@ -1,4 +1,7 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","1155","Verify HRM button expands Menu Successfully","chromium","Wed Oct 22 15:39:23 GMT+06:00 2025","passed","Wed Oct 22 15:39:24 GMT+06:00 2025","NGO Forum ERP","Specs\example.spec.js","",""
 "","15382","New Employee plus Button works properly","chromium","Tue Oct 21 22:56:46 GMT+06:00 2025","passed","Tue Oct 21 22:57:01 GMT+06:00 2025","NGO Forum ERP","example.spec.js","",""
-"","2019","Verify HRM button expands Menu Successfully","chromium","Tue Oct 21 22:56:44 GMT+06:00 2025","passed","Tue Oct 21 22:56:46 GMT+06:00 2025","NGO Forum ERP","example.spec.js","",""
+"","13598","Successfully Login with valid Information","chromium","Wed Oct 22 15:39:07 GMT+06:00 2025","passed","Wed Oct 22 15:39:20 GMT+06:00 2025","NGO Forum ERP","Specs\example.spec.js","",""
+"","3283","New Employee plus Button works properly","chromium","Wed Oct 22 15:39:24 GMT+06:00 2025","passed","Wed Oct 22 15:39:28 GMT+06:00 2025","NGO Forum ERP","Specs\example.spec.js","",""
 "","13152","Successfully Login with valid Information","chromium","Tue Oct 21 22:56:26 GMT+06:00 2025","passed","Tue Oct 21 22:56:39 GMT+06:00 2025","NGO Forum ERP","example.spec.js","",""
+"","2019","Verify HRM button expands Menu Successfully","chromium","Tue Oct 21 22:56:44 GMT+06:00 2025","passed","Tue Oct 21 22:56:46 GMT+06:00 2025","NGO Forum ERP","example.spec.js","",""
