@@ -71,9 +71,15 @@ test.describe("NGO Forum ERP",()=>{
 
     test("Insert Number Successfully",async()=>{
          await account.enterPhoneNumber();
-         await page.pause();
+        //  await page.pause();
 
     });
+
+    test ("Insert Password Successfully",async()=>{
+
+        await account.enterPassword();
+        await page.pause();
+    })
 
     
     

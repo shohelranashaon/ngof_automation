@@ -24,3 +24,9 @@ export function generateRandomNumber(){
     return randomNumber;
 
 }
+
+export function createPassword(){
+
+    const password = "12345678";
+     return password;
+};

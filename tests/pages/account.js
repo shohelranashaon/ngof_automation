@@ -1,4 +1,4 @@
-import { generateRandomEmail, generateRandomName, generateRandomNumber } from "../../Utilities/helper";
+import { createPassword, generateRandomEmail, generateRandomName, generateRandomNumber } from "../../Utilities/helper";
 import AccountObjects from "../locators/accountObject";
 
 export default class Account{
@@ -52,6 +52,11 @@ export default class Account{
         async enterPhoneNumber(){
 
             await this.locator.enterPhoneNumber.fill(generateRandomNumber());
+        }
+
+        async enterPassword(){
+
+            await this.locator.enterPassword.fill(createPassword());
         }
 
 }
