@@ -26,8 +26,10 @@ export default class Account{
         }
 
         async clickButtonHrm(){
+            await this.page.waitForTimeout(2000);
 
-            await this.locator.clickButtonHrm.click();
+            await this.locator.buttonHrm.click();
+
         }
 
         async clickButtonEmployee(){
