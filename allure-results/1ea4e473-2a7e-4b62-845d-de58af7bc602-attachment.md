@@ -1,0 +1,333 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link [ref=e5] [cursor=pointer]:
+        - /url: https://ngof.4axizerp.com/home
+      - generic [ref=e7]:
+        - generic [ref=e8]: 
+        - textbox "Search" [ref=e9]:
+          - /placeholder: Search . . .
+      - list [ref=e11]:
+        - listitem [ref=e12]:
+          - link " Dashboard" [ref=e13] [cursor=pointer]:
+            - /url: "#!"
+            - generic [ref=e15]: 
+            - generic [ref=e16]: Dashboard
+            - img [ref=e18]
+          - list [ref=e20]:
+            - listitem [ref=e21]:
+              - link "HRM Dashboard" [ref=e22] [cursor=pointer]:
+                - /url: https://ngof.4axizerp.com/dashboard/hrm
+        - listitem [ref=e23]:
+          - link " User Management" [ref=e24] [cursor=pointer]:
+            - /url: "#!"
+            - generic [ref=e26]: 
+            - generic [ref=e27]: User Management
+            - img [ref=e29]
+        - listitem [ref=e31]:
+          - link " HRM" [active] [ref=e32] [cursor=pointer]:
+            - /url: "#!"
+            - generic [ref=e34]: 
+            - generic [ref=e35]: HRM
+            - img [ref=e37]
+        - listitem [ref=e39]:
+          - link " Biometric" [ref=e40] [cursor=pointer]:
+            - /url: "#!"
+            - generic [ref=e42]: 
+            - generic [ref=e43]: Biometric
+            - img [ref=e45]
+        - listitem [ref=e47]:
+          - link " Activity Log" [ref=e48] [cursor=pointer]:
+            - /url: https://ngof.4axizerp.com/activitylog
+            - generic [ref=e50]: 
+            - generic [ref=e51]: Activity Log
+  - banner [ref=e52]:
+    - generic [ref=e53]:
+      - list [ref=e55]:
+        - listitem [ref=e56]:
+          - button "# NGOF " [ref=e57] [cursor=pointer]:
+            - img "#" [ref=e59]
+            - generic [ref=e60]: NGOF
+            - generic [ref=e61]: 
+          - text:  
+        - listitem [ref=e62]:
+          - link "" [ref=e63] [cursor=pointer]:
+            - /url: https://ngof.4axizerp.com/config-cache
+            - generic [ref=e64]: 
+      - list [ref=e66]:
+        - listitem [ref=e67]:
+          - button " UNHCR " [ref=e68] [cursor=pointer]:
+            - generic [ref=e69]: 
+            - generic [ref=e70]: UNHCR
+            - generic [ref=e71]: 
+          - text: 
+        - listitem [ref=e72]:
+          - button " EN " [ref=e73] [cursor=pointer]:
+            - generic [ref=e74]: 
+            - generic [ref=e75]: EN
+            - generic [ref=e76]: 
+  - generic [ref=e78]:
+    - generic [ref=e82]:
+      - heading "Dashboard" [level=4] [ref=e84]
+      - list [ref=e85]:
+        - listitem [ref=e86]:
+          - link "Dashboard" [ref=e87] [cursor=pointer]:
+            - /url: https://ngof.4axizerp.com/dashboard
+        - listitem [ref=e88]: Hrm
+    - generic [ref=e89]:
+      - generic [ref=e91]:
+        - img "layer" [ref=e92]
+        - generic [ref=e93]:
+          - generic [ref=e94]:
+            - heading "UNHCR" [level=2] [ref=e95]
+            - paragraph [ref=e96]: Streamline HR with seamless tasks, smooth recruitment, and efficient payroll
+          - img [ref=e98]
+      - generic [ref=e108]:
+        - generic [ref=e111]:
+          - generic [ref=e112]:
+            - generic [ref=e114]: 
+            - link "Total Employee" [ref=e115] [cursor=pointer]:
+              - /url: https://ngof.4axizerp.com/employee
+              - heading "Total Employee" [level=3] [ref=e116]
+          - heading "0" [level=3] [ref=e117]
+        - generic [ref=e120]:
+          - generic [ref=e121]:
+            - generic [ref=e123]: 
+            - link "Total Leaves" [ref=e124] [cursor=pointer]:
+              - /url: https://ngof.4axizerp.com/leave
+              - heading "Total Leaves" [level=3] [ref=e125]
+          - heading "0" [level=3] [ref=e126]
+        - generic [ref=e129]:
+          - generic [ref=e130]:
+            - generic [ref=e132]: 
+            - link "Total Event" [ref=e133] [cursor=pointer]:
+              - /url: https://ngof.4axizerp.com/event
+              - heading "Total Event" [level=3] [ref=e134]
+          - heading "0" [level=3] [ref=e135]
+    - generic [ref=e138]:
+      - generic [ref=e139]:
+        - generic [ref=e140]:
+          - heading "Today's Not Clock In" [level=5] [ref=e142]
+          - table [ref=e145]:
+            - rowgroup [ref=e146]:
+              - row "Name Status" [ref=e147]:
+                - cell "Name" [ref=e148]
+                - cell "Status" [ref=e149]
+            - rowgroup [ref=e150]:
+              - row " Opps... No Data Found" [ref=e151]:
+                - cell " Opps... No Data Found" [ref=e152]:
+                  - generic [ref=e153]:
+                    - generic [ref=e154]: 
+                    - heading "Opps..." [level=2] [ref=e155]
+                    - heading "No Data Found" [level=6] [ref=e156]
+        - generic [ref=e157]:
+          - heading "Announcement List" [level=5] [ref=e159]
+          - table [ref=e162]:
+            - rowgroup [ref=e163]:
+              - row "Title Start Date End Date Description" [ref=e164]:
+                - cell "Title" [ref=e165]
+                - cell "Start Date" [ref=e166]
+                - cell "End Date" [ref=e167]
+                - cell "Description" [ref=e168]
+            - rowgroup [ref=e169]:
+              - row " Opps... No Data Found" [ref=e170]:
+                - cell " Opps... No Data Found" [ref=e171]:
+                  - generic [ref=e172]:
+                    - generic [ref=e173]: 
+                    - heading "Opps..." [level=2] [ref=e174]
+                    - heading "No Data Found" [level=6] [ref=e175]
+      - generic [ref=e177]:
+        - heading "Holiday's & Event's" [level=5] [ref=e179]
+        - generic [ref=e181]:
+          - generic [ref=e182]:
+            - generic [ref=e183]:
+              - generic [ref=e184]:
+                - button "" [ref=e185] [cursor=pointer]:
+                  - generic [ref=e186]: 
+                - button "" [ref=e187] [cursor=pointer]:
+                  - generic [ref=e188]: 
+              - button "today" [disabled]
+            - heading "October 2025" [level=2] [ref=e190]
+            - generic [ref=e192]:
+              - button "Month" [pressed] [ref=e193] [cursor=pointer]
+              - button "Week" [ref=e194] [cursor=pointer]
+              - button "Day" [ref=e195] [cursor=pointer]
+          - generic "October 2025" [ref=e196]:
+            - grid [ref=e198]:
+              - rowgroup [ref=e199]:
+                - row "Sunday Monday Tuesday Wednesday Thursday Friday Saturday" [ref=e203]:
+                  - columnheader "Sunday" [ref=e204]:
+                    - generic "Sunday" [ref=e206]: Sun
+                  - columnheader "Monday" [ref=e207]:
+                    - generic "Monday" [ref=e209]: Mon
+                  - columnheader "Tuesday" [ref=e210]:
+                    - generic "Tuesday" [ref=e212]: Tue
+                  - columnheader "Wednesday" [ref=e213]:
+                    - generic "Wednesday" [ref=e215]: Wed
+                  - columnheader "Thursday" [ref=e216]:
+                    - generic "Thursday" [ref=e218]: Thu
+                  - columnheader "Friday" [ref=e219]:
+                    - generic "Friday" [ref=e221]: Fri
+                  - columnheader "Saturday" [ref=e222]:
+                    - generic "Saturday" [ref=e224]: Sat
+              - rowgroup [ref=e225]:
+                - generic [ref=e228]:
+                  - row "28 29 30 1 2 3 4" [ref=e230]:
+                    - gridcell "28" [ref=e231]:
+                      - generic "Go to September 28, 2025" [ref=e234] [cursor=pointer]: "28"
+                    - gridcell "29" [ref=e237]:
+                      - generic "Go to September 29, 2025" [ref=e240] [cursor=pointer]: "29"
+                    - gridcell "30" [ref=e243]:
+                      - generic "Go to September 30, 2025" [ref=e246] [cursor=pointer]: "30"
+                    - gridcell "1" [ref=e249]:
+                      - generic "Go to October 1, 2025" [ref=e252] [cursor=pointer]: "1"
+                    - gridcell "2" [ref=e255]:
+                      - generic "Go to October 2, 2025" [ref=e258] [cursor=pointer]: "2"
+                    - gridcell "3" [ref=e261]:
+                      - generic "Go to October 3, 2025" [ref=e264] [cursor=pointer]: "3"
+                    - gridcell "4" [ref=e267]:
+                      - generic "Go to October 4, 2025" [ref=e270] [cursor=pointer]: "4"
+                  - row "5 6 7 8 9 10 11" [ref=e273]:
+                    - gridcell "5" [ref=e274]:
+                      - generic "Go to October 5, 2025" [ref=e277] [cursor=pointer]: "5"
+                    - gridcell "6" [ref=e280]:
+                      - generic "Go to October 6, 2025" [ref=e283] [cursor=pointer]: "6"
+                    - gridcell "7" [ref=e286]:
+                      - generic "Go to October 7, 2025" [ref=e289] [cursor=pointer]: "7"
+                    - gridcell "8" [ref=e292]:
+                      - generic "Go to October 8, 2025" [ref=e295] [cursor=pointer]: "8"
+                    - gridcell "9" [ref=e298]:
+                      - generic "Go to October 9, 2025" [ref=e301] [cursor=pointer]: "9"
+                    - gridcell "10" [ref=e304]:
+                      - generic "Go to October 10, 2025" [ref=e307] [cursor=pointer]: "10"
+                    - gridcell "11" [ref=e310]:
+                      - generic "Go to October 11, 2025" [ref=e313] [cursor=pointer]: "11"
+                  - row "12 13 14 15 16 17 18" [ref=e316]:
+                    - gridcell "12" [ref=e317]:
+                      - generic "Go to October 12, 2025" [ref=e320] [cursor=pointer]: "12"
+                    - gridcell "13" [ref=e323]:
+                      - generic "Go to October 13, 2025" [ref=e326] [cursor=pointer]: "13"
+                    - gridcell "14" [ref=e329]:
+                      - generic "Go to October 14, 2025" [ref=e332] [cursor=pointer]: "14"
+                    - gridcell "15" [ref=e335]:
+                      - generic "Go to October 15, 2025" [ref=e338] [cursor=pointer]: "15"
+                    - gridcell "16" [ref=e341]:
+                      - generic "Go to October 16, 2025" [ref=e344] [cursor=pointer]: "16"
+                    - gridcell "17" [ref=e347]:
+                      - generic "Go to October 17, 2025" [ref=e350] [cursor=pointer]: "17"
+                    - gridcell "18" [ref=e353]:
+                      - generic "Go to October 18, 2025" [ref=e356] [cursor=pointer]: "18"
+                  - row "19 20 21 22 23 24 25" [ref=e359]:
+                    - gridcell "19" [ref=e360]:
+                      - generic "Go to October 19, 2025" [ref=e363] [cursor=pointer]: "19"
+                    - gridcell "20" [ref=e366]:
+                      - generic "Go to October 20, 2025" [ref=e369] [cursor=pointer]: "20"
+                    - gridcell "21" [ref=e372]:
+                      - generic "Go to October 21, 2025" [ref=e375] [cursor=pointer]: "21"
+                    - gridcell "22" [ref=e378]:
+                      - generic "Go to October 22, 2025" [ref=e381] [cursor=pointer]: "22"
+                    - gridcell "23" [ref=e384]:
+                      - generic "Go to October 23, 2025" [ref=e387] [cursor=pointer]: "23"
+                    - gridcell "24" [ref=e390]:
+                      - generic "Go to October 24, 2025" [ref=e393] [cursor=pointer]: "24"
+                    - gridcell "25" [ref=e396]:
+                      - generic "Go to October 25, 2025" [ref=e399] [cursor=pointer]: "25"
+                  - row "26 27 28 29 30 31 1" [ref=e402]:
+                    - gridcell "26" [ref=e403]:
+                      - generic "Go to October 26, 2025" [ref=e406] [cursor=pointer]: "26"
+                    - gridcell "27" [ref=e409]:
+                      - generic "Go to October 27, 2025" [ref=e412] [cursor=pointer]: "27"
+                    - gridcell "28" [ref=e415]:
+                      - generic "Go to October 28, 2025" [ref=e418] [cursor=pointer]: "28"
+                    - gridcell "29" [ref=e421]:
+                      - generic "Go to October 29, 2025" [ref=e424] [cursor=pointer]: "29"
+                    - gridcell "30" [ref=e427]:
+                      - generic "Go to October 30, 2025" [ref=e430] [cursor=pointer]: "30"
+                    - gridcell "31" [ref=e433]:
+                      - generic "Go to October 31, 2025" [ref=e436] [cursor=pointer]: "31"
+                    - gridcell "1" [ref=e439]:
+                      - generic "Go to November 1, 2025" [ref=e442] [cursor=pointer]: "1"
+                  - row "2 3 4 5 6 7 8" [ref=e445]:
+                    - gridcell "2" [ref=e446]:
+                      - generic "Go to November 2, 2025" [ref=e449] [cursor=pointer]: "2"
+                    - gridcell "3" [ref=e452]:
+                      - generic "Go to November 3, 2025" [ref=e455] [cursor=pointer]: "3"
+                    - gridcell "4" [ref=e458]:
+                      - generic "Go to November 4, 2025" [ref=e461] [cursor=pointer]: "4"
+                    - gridcell "5" [ref=e464]:
+                      - generic "Go to November 5, 2025" [ref=e467] [cursor=pointer]: "5"
+                    - gridcell "6" [ref=e470]:
+                      - generic "Go to November 6, 2025" [ref=e473] [cursor=pointer]: "6"
+                    - gridcell "7" [ref=e476]:
+                      - generic "Go to November 7, 2025" [ref=e479] [cursor=pointer]: "7"
+                    - gridcell "8" [ref=e482]:
+                      - generic "Go to November 8, 2025" [ref=e485] [cursor=pointer]: "8"
+  - contentinfo [ref=e488]:
+    - generic [ref=e490]: Copyright © 4axiz IT Limited 2025
+  - dialog "We use cookies!" [ref=e492]:
+    - generic [ref=e493]:
+      - generic [ref=e494]:
+        - heading "We use cookies!" [level=2] [ref=e495]
+        - generic [ref=e496]:
+          - text: Hi, this website uses essential cookies to ensure its proper operation and tracking cookies to understand how you interact with it.
+          - button "Let me choose" [ref=e497] [cursor=pointer]
+      - generic [ref=e498]:
+        - button "Accept all" [ref=e499] [cursor=pointer]
+        - button "Reject all" [ref=e500] [cursor=pointer]
+  - generic [ref=e501]:
+    - generic [ref=e503]:
+      - generic [ref=e505]:
+        - generic [ref=e506] [cursor=pointer]:
+          - generic: 
+        - generic [ref=e507] [cursor=pointer]:
+          - generic: 
+        - generic [ref=e508] [cursor=pointer]:
+          - generic: 
+        - generic [ref=e509] [cursor=pointer]:
+          - generic: 
+          - generic [ref=e510]: "220"
+        - generic [ref=e511] [cursor=pointer]:
+          - generic: 
+        - generic [ref=e512] [cursor=pointer]:
+          - generic: 
+          - generic [ref=e513]: "4"
+        - generic [ref=e514] [cursor=pointer]:
+          - generic: 
+          - generic [ref=e515]: "221"
+        - generic [ref=e516] [cursor=pointer]:
+          - generic: 
+          - generic [ref=e517]: "0"
+        - generic [ref=e518] [cursor=pointer]:
+          - generic: 
+        - generic [ref=e519] [cursor=pointer]:
+          - generic: 
+        - generic [ref=e520] [cursor=pointer]:
+          - generic: 
+        - generic [ref=e521] [cursor=pointer]:
+          - generic: 
+      - generic [ref=e522]:
+        - generic [ref=e526] [cursor=pointer]:
+          - generic: 
+          - generic [ref=e527]: "3"
+        - combobox [ref=e528] [cursor=pointer]:
+          - option "#1 hrm (21:34:31)"
+          - option "#2 favorites (ajax) (21:34:33)"
+          - option "#3 getContacts (ajax) (21:34:33)" [selected]
+        - generic [ref=e529]:
+          - generic: 
+          - generic: 8.2.29
+        - generic [ref=e530]:
+          - generic: 
+          - generic: 903ms
+        - generic [ref=e531]:
+          - generic: 
+          - generic: 8MB
+        - generic [ref=e532]:
+          - generic: 
+          - generic: POST chatify/getContacts
+    - text:                                      
+  - text: 
+```

@@ -1,4 +1,4 @@
-import { generateRandomEmail, generateRandomName, generateRandomNumber } from "../../Utilities/helper";
+import { createPassword, generateRandomEmail, generateRandomName, generateRandomNumber } from "../../Utilities/helper";
 import AccountObjects from "../locators/accountObject";
 
 export default class Account{
@@ -20,14 +20,16 @@ export default class Account{
         }
 
 
-        async clickButtonLogin(){
+        async buttonLogin(){
 
-            await this.locator.clickButtonLogin.click();
+            await this.locator.buttonLogin.click();
         }
 
         async clickButtonHrm(){
+            await this.page.waitForTimeout(2000);
 
-            await this.locator.clickButtonHrm.click();
+            await this.locator.buttonHrm.click();
+
         }
 
         async clickButtonEmployee(){
@@ -52,6 +54,11 @@ export default class Account{
         async enterPhoneNumber(){
 
             await this.locator.enterPhoneNumber.fill(generateRandomNumber());
+        }
+
+        async enterPassword(){
+
+            await this.locator.enterPassword.fill(createPassword());
         }
 
 }

@@ -19,7 +19,7 @@ test.describe("NGO Forum ERP",()=>{
             page =await context.newPage();
             account = new Account(page);
 
-            await page.goto("/");
+            await page.goto("https://ngof.4axizerp.com/login");
 
         });
 
@@ -29,10 +29,11 @@ test.describe("NGO Forum ERP",()=>{
          await account.enterEmail("admin@ngof.org");
          await page.waitForTimeout(3000);
          await account.enterPassword("11112222");
-         await page.waitForTimeout(5000);
-         await account.clickButtonLogin();        
+         await page.waitForTimeout(3000);
+         await account.buttonLogin();        
     });
 
+    
 
 
     test("Verify HRM button expands Menu Successfully",async ()=>{
@@ -71,9 +72,15 @@ test.describe("NGO Forum ERP",()=>{
 
     test("Insert Number Successfully",async()=>{
          await account.enterPhoneNumber();
-         await page.pause();
+        //  await page.pause();
 
     });
+
+    test ("Insert Password Successfully",async()=>{
+
+        await account.enterPassword();
+        await page.pause();
+    })
 
     
     
