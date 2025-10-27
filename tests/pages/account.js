@@ -20,9 +20,9 @@ export default class Account{
         }
 
 
-        async clickButtonLogin(){
+        async buttonLogin(){
 
-            await this.locator.clickButtonLogin.click();
+            await this.locator.buttonLogin.click();
         }
 
         async clickButtonHrm(){

@@ -5,7 +5,7 @@ export default class AccountObjects{
         this.page =page;
         this.email= this.page.locator("//input[@name='email']");
         this.enterPassword = this.page.locator("//input[@name='password']");
-        this.clickButtonLogin= this.page.locator("//button[contains(.,'Login')]");
+        this.buttonLogin= this.page.locator("//button[contains(.,'Login')]");
         this.buttonHrm =this.page.locator("//span[text()='HRM']");
         this.clickButtonEmployee = this.page.locator("//a[normalize-space()='Employee']");
         this.addNewEmployee = this.page.locator("//i[@class='ti ti-plus']")

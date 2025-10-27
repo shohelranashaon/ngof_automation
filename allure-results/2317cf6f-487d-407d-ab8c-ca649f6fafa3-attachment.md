@@ -1,0 +1,45 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic:
+    - img [ref=e3]
+    - img
+  - generic [ref=e5]:
+    - banner [ref=e6]:
+      - navigation [ref=e7]:
+        - generic [ref=e8]:
+          - generic [ref=e9]:
+            - link "NGOF ERP":
+              - /url: https://ngof.4axizerp.com
+              - img "NGOF ERP"
+          - list [ref=e11]:
+            - listitem [ref=e12]:
+              - link "About Us" [ref=e13] [cursor=pointer]:
+                - /url: https://ngof.4axizerp.com/pages/about_us
+            - listitem [ref=e14]:
+              - link "Terms and Conditions" [ref=e15] [cursor=pointer]:
+                - /url: https://ngof.4axizerp.com/pages/terms_and_conditions
+            - listitem [ref=e16]:
+              - link "Privacy Policy" [ref=e17] [cursor=pointer]:
+                - /url: https://ngof.4axizerp.com/pages/privacy_policy
+            - listitem [ref=e19]:
+              - link "EN" [ref=e20] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e21]: EN
+    - main [ref=e22]:
+      - generic [ref=e26]:
+        - heading "Login" [level=2] [ref=e28]
+        - generic [ref=e30]:
+          - generic [ref=e31]:
+            - generic [ref=e32]: Email
+            - textbox "E-Mail Address" [ref=e33]
+          - generic [ref=e34]:
+            - generic [ref=e35]: Password
+            - textbox "Password" [ref=e36]
+            - link "Forgot Your Password?" [ref=e38] [cursor=pointer]:
+              - /url: https://ngof.4axizerp.com/forgot-password/en
+          - button "Login" [ref=e40] [cursor=pointer]
+    - contentinfo [ref=e41]:
+      - generic [ref=e45]: Copyright © NGOF ERP 2025
+```
