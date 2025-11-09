@@ -26,9 +26,9 @@ test.describe("NGO Forum ERP",()=>{
     
     test("Successfully Login with valid Information",async()=>{
         await page.waitForTimeout(2000);
-         await account.enterEmail("admin@ngof.org");
+         await account.enterEmail("test@ngof.org");
          await page.waitForTimeout(3000);
-         await account.enterPassword("11112222");
+         await account.enterPassword("123456789012233");
          await page.waitForTimeout(3000);
          await account.buttonLogin();        
     });
